@@ -9,7 +9,7 @@ mcServer.createMCServer({
   'difficulty': 0,
   'worldFolder':'world',
   'generation': {
-    'name': 'diamond_square',
+    'name': 'empty',
     'options':{
       'worldHeight': 80
     }
