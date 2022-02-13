@@ -3,7 +3,7 @@ const { config } = require('./config')
 const { Database } = require("quickmongo");
 const loggedIn = {}
 const waitLoginPromises = {}
-const db = new Database("MongoDBurl");
+const db = new Database(process.env.mongo);
 
 db.on("ready", () => {
   console.log(" [DATABASE] Connected to the Database");
